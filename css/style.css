@@ -1,32 +1,37 @@
+/* Configurações gerais */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; /* Fundo cinza claro */
 }
 
+/* --- CABEÇALHO (Faixa Laranja) --- */
 header {
-    background-color: #f37f21;
+    background-color: #f37f21; /* Tom de laranja do modelo */
     color: white;
     padding: 20px;
-    height: 120px;
-    position: relative;
+    height: 120px; /* Altura fixa para a faixa */
+    position: relative; /* Importante para o posicionamento da foto e texto */
 }
 
 header img {
     width: 100px;
-    height: 100px;
+    height: 100px; /* Ajuste o tamanho da sua foto */
     border: 3px solid white;
+    
+    /* Posicionamento da foto */
     position: absolute;
     top: 20px;
     left: 20px;
 }
 
 .contato-header {
+    /* Posicionamento do bloco de texto */
     position: absolute;
     top: 10px;
     right: 20px;
-    text-align: right;
+    text-align: right; /* Alinha o texto à direita */
 }
 
 .contato-header h1 {
@@ -39,39 +44,46 @@ header img {
     font-size: 14px;
 }
 
+/* --- CONTEÚDO PRINCIPAL (Branco) --- */
 main {
     background-color: white;
+    /* Centraliza o conteúdo na tela */
     width: 800px;
-    margin: 20px auto;
+    margin: 20px auto; /* 20px de espaço em cima/baixo, 'auto' nas laterais */
+    
     padding: 30px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra suave */
 }
 
+/* Títulos Laranjas (H2) */
 h2 {
     color: #f37f21;
     font-size: 20px;
-    border-bottom: 2px solid #f37f21;
+    border-bottom: 2px solid #f37f21; /* Linha laranja abaixo do título */
     padding-bottom: 5px;
     margin-top: 25px;
     margin-bottom: 15px;
 }
 
+/* Título da Empresa (H3) */
 h3 {
     color: #333;
     margin-top: 15px;
     margin-bottom: 5px;
 }
 
+/* Estilo dos parágrafos */
 p {
     color: #555;
-    line-height: 1.5;
+    line-height: 1.5; /* Espaçamento entre linhas */
     margin: 10px 0;
 }
 
 p strong {
-    color: #000;
+    color: #000; /* Deixa o texto em negrito mais escuro */
 }
 
+/* Espaçamento entre os blocos de experiência */
 .experiencia-item {
     margin-bottom: 20px;
 }
